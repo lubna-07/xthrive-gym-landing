@@ -1,0 +1,244 @@
+.pb112 {
+    padding-bottom: 112px;
+}
+
+.pt64 {
+    padding-top: 64px;
+}
+.bg-secondary {
+    background: #f8f8f8 !important;
+}
+
+section{
+    padding: 96px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.pt32 {
+    padding-top: 32px;
+}
+
+.pt42 {
+    padding-top: 42px;
+}
+
+.v-align-children {
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
+    -webkit-flex-direction: row;
+}
+
+.content-block, .title-block {
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.content-block h2.content-title.uppercase {
+    font-size: 40px;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+
+h2.uppercase {
+    /* letter-spacing: 10px; */
+    margin-right: -10px;
+}
+
+.color-brand-secondary {
+    color: #000000 !important;
+}
+
+.uppercase {
+    /* font-weight: 400; */
+    text-transform: uppercase;
+}
+
+h2{
+    font-family: 'Roboto', 'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h2 {
+    line-height: 48px;
+    margin-bottom: 24px;
+    margin-top: 0;
+    padding: 0;
+}
+
+.content-block .content-body {
+    font-size: 16px;
+}
+
+.mb32 {
+    margin-bottom: 32px;
+}
+
+.btn {
+    padding: 0 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 0;
+    text-align: center;
+    -webkit-transition: all 0.3s ease;
+}
+
+.btn {
+    font-family: 'Roboto', 'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.btn {
+    border: 2px solid #000000;
+}
+
+.btn-xl {
+    height: 65px;
+    line-height: 65px;
+    min-width: 250px;
+    font-size: 16px;
+}
+
+a, a:visited, a:focus, a:active, a:hover {
+    text-decoration: none;
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+}
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 13px;
+    line-height: 24px;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.mb0 {
+    margin-bottom: 0 !important;
+}
+
+.play-button.inline {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    display: inline-block;
+    color: red;
+    /* z-index: 0; */
+}
+/* .play-button.large {
+    height: 120px;
+    width: 120px;
+    margin-top: -60px;
+    margin-left: -60px;
+}
+
+.play-icon{
+    margin-top: 35px;
+    margin-left: 15px;
+}
+
+.play-button {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #fff;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -40px;
+    margin-left: -40px;
+    z-index: 4;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    cursor: pointer;
+} */
+
+/* .foundry_modal.no-bg {
+    background: none;
+    box-shadow: none !important;
+}
+@media (max-width: 1190px) {
+    .foundry_modal {
+        max-width: 70%;
+        width: 70%;
+        padding: 64px 32px;
+    }
+}
+.foundry_modal {
+    overflow-y: auto;
+    max-height: 100%;
+    max-width: 50%;
+    width: 50%;
+    position: fixed;
+    padding: 80px 48px;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    opacity: 0;
+    visibility: hidden;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
+}
+
+.foundry_modal *:not(.background-image-holder):not(.close-modal) {
+    z-index: 4;
+    position: relative;
+}
+.foundry_modal iframe {
+    width: 100%;
+    min-height: 400px;
+}
+iframe {
+    border: none;
+}
+
+iframe {
+    overflow-clip-margin: content-box !important;
+    overflow: clip !important;
+}
+
+.foundry_modal {
+    overflow-y: auto;
+    max-height: 100%;
+    max-width: 50%;
+    width: 50%;
+    position: fixed;
+    padding: 80px 48px;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    opacity: 0;
+    visibility: hidden;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
+} */

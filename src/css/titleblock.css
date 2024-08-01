@@ -1,0 +1,154 @@
+.nav-is-overlay .page-title-1.image-bg:first-child{
+    padding-top: 55px;
+}
+
+.h-600px {
+    height: 600px !important;
+}
+
+.page-title {
+    padding: 0;
+}
+
+section {
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
+
+.background-image-holder.fadeIn {
+    opacity: 1;
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+}
+
+.background-image-holder {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-size: cover !important;
+    background-position: 50% 50% !important;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    opacity: 0;
+}
+
+.page-title .container {
+    position: relative;
+    -webkit-transform: translate3d(0, -50%, 0);
+    top: 50%;
+    z-index: 2;
+}
+
+.container {
+    position: relative;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.image-bg div[class*='col-'] {
+    position: relative;
+    z-index: 3;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.page-title-section h1 {
+    font-size: 3rem;
+    letter-spacing: 7px;
+    line-height: 65px;
+    margin-bottom: 40px;
+}
+
+.image-bg h1{
+    color: #ffffff;
+}
+
+.bold {
+    font-weight: 600 !important;
+}
+
+/* below is main.css */
+h1, h2, h3, h4, h5, h6, section p, section span {
+    font-family: 'Roboto', 'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1,button {
+    margin-bottom: 24px;
+    margin-top: 0;
+    padding: 0;
+}
+
+.page-title-section h1.lead {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.mb40 {
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.btn.btn-white:visited {
+    color: #333 !important;
+}
+
+.btn-white, .image-bg .btn, .image-bg .btn:visited {
+    border-color: #fff;
+}
+
+.btn.btn-white {
+    background-color: #fff;
+}
+
+.btn:last-child, .btn:last-of-type {
+    margin-right: 0;
+}
+
+a, a:visited {
+    text-decoration: none;
+    outline: none;
+}
+.btn-xl {
+    height: 65px;
+    line-height: 65px;
+    min-width: 250px;
+    font-size: 16px;
+}
+.btn, .menu {
+    font-family: 'Roboto', 'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.btn {
+    border: 2px solid #3cb4e5;
+}
+.mb0 {
+    margin-bottom: 0 !important;
+}
+
+.bg-dark-overlay-new .background-image-holder.fadeIn:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /* background-blend-mode: unset; */
+    background-color: rgba(0, 0, 0, 0.3) !important;
+}

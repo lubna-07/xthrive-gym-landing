@@ -6,14 +6,13 @@ import {
 import About from './components/About';
 import Blog from './components/Blog';
 import Contact from './components/Contact';
-import Header from './components/Header';
-import Footer from './components/Footer';
 import Home from "./components/Home";
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
     <Router>
-      <Header />
+      {/* <Header /> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
