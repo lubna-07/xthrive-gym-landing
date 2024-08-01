@@ -14,17 +14,19 @@ const MenuBar = () => {
     };
 
     const menuItems = [
-        { text: 'Home', link: '/' },
-        { text: 'About', link: '/about' },
-        { text: 'Career', link: '/career' },
-        { text: 'Contact', link: '/contact' },
-        { text: 'Find a Gym', link: '/find-a-gym' }
+        { text: 'WHAT IS OPEX?', link: '/' },
+        { text: 'HOW IT WORKS?', link: '/about' },
+        { text: 'OUR PHILOSOPHY', link: '/career' },
+        { text: 'TESTIMONALS', link: '/contact' },
+        { text: 'BLOG', link: '/find-a-gym' },
+        { text: 'SHOP', link: '/find-a-gym' },
+        { text: 'FIND A GYM', link: '/find-a-gym' }
     ];
 
     return (
-        <Box sx={{ flexGrow: 1, position: 'relative', height: '30vh', backgroundColor : 'yellow' }}>
-            <AppBar position="absolute" style={{boxShadow: 'none', zIndex: 10 }}>
-                <Toolbar>
+        <Box sx={{ flexGrow: 1, position: 'relative', height: '20vh'}}>
+            <AppBar position="absolute" style={{background : 'transparent',boxShadow: 'none', zIndex: 10 }}>
+                <Toolbar sx={{marginTop :  isMobile? '7vh' : '0vh' }}>
                     <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                         <img src="https://flexxsirv.sirv.com/b6b3b9e876cd41273b1c1527c96892c5a2d3dfaa2f/opex-gyms-logo_white.png" alt="Logo" style={{ height: '40px' }} />
                     </Typography>
@@ -64,9 +66,10 @@ const MenuBar = () => {
                                     ))}
                                 </List>
                             </Drawer>
-                        </>
+              
+          </>
                     ) : (
-                        <Box sx={{ display: 'flex', gap: '1rem',backgroundColor : 'red' }}>
+                        <Box sx={{ display: 'flex', gap: '1rem', height : '25vh' }}>
                             {menuItems.map((item, index) => (
                                 <Button key={index} color="inherit" component={Link} to={item.link}>
                                     {item.text}

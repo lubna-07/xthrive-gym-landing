@@ -7,7 +7,7 @@ const TitleBlock = () => {
     return (
         <section className="page-title page-title-1 image-bg overlay bg-dark-overlay-new h-600px">
             <MenuBar/>
-            {/* <div
+            <div
                 className="background-image-holder fadeIn"
                 style={{ background: 'url("https://flexxsirv.sirv.com/b6b3b9e876cd41273b1c1527c96892c5a2d3dfaa2f/opex-gyms-1.jpg")' }}
             >
@@ -17,8 +17,8 @@ const TitleBlock = () => {
                     src="https://flexxsirv.sirv.com/b6b3b9e876cd41273b1c1527c96892c5a2d3dfaa2f/opex-gyms-1.jpg"
                     style={{ display: 'none' }}
                 />
-            </div> */}
-            <div className="container page-title-section">
+            </div>
+            <div className="homeContainer page-title-section">
                 <div className="row">
                     <div className="col-sm-12 text-center">
                         <h1 className="large bold h1">RESULTS, RELATIONSHIPS, FUN</h1>

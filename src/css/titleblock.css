@@ -1,3 +1,4 @@
+
 .nav-is-overlay .page-title-1.image-bg:first-child{
     padding-top: 55px;
 }
@@ -49,6 +50,16 @@ section {
     position: relative;
 }
 
+.homeContainer {
+    position: relative;
+    background-color:#3cb4e5 ;
+    margin-top: 50px;;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .container {
     padding-right: 15px;
     padding-left: 15px;
@@ -71,6 +82,8 @@ section {
 }
 
 .page-title-section h1 {
+    /* background-color: #333; */
+    /* margin-top: -200px; */
     font-size: 3rem;
     letter-spacing: 7px;
     line-height: 65px;
