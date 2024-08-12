@@ -14,10 +14,10 @@ const MenuBar = () => {
     };
 
     const menuItems = [
-        { text: 'WHAT IS OPEX?', link: '/' },
+        { text: 'WHAT IS OPEX?', link: '/about/what-is-xthrive' },
         { text: 'HOW IT WORKS?', link: '/about' },
-        { text: 'OUR PHILOSOPHY', link: '/career' },
-        { text: 'TESTIMONALS', link: '/contact' },
+        { text: 'OUR PHILOSOPHY', link: '/our-philosophy' },
+        { text: 'TESTIMONALS', link: '/testimonials' },
         { text: 'BLOG', link: '/find-a-gym' },
         { text: 'SHOP', link: '/find-a-gym' },
         { text: 'FIND A GYM', link: '/find-a-gym' }

@@ -20,7 +20,7 @@ function Home() {
        
       <div class="main-container">
         {/* <!-- Title Block --> */}
-        <TitleBlock />
+        {/* <TitleBlock /> */}
         {/* <!-- What is OPEX Block --> */}
         <WhatIsOpex />
         {/* <!-- Process Block --> */}
@@ -38,8 +38,6 @@ function Home() {
 
         {/* <!-- Newsletter Sign up --> */}
         {/* <Newsletter/> */}
-
-        <Footer/>
       </div>
     </div>
 

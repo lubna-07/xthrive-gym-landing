@@ -14,8 +14,10 @@ const Signup = () => {
                 height: 'auto',
                 marginTop : '5vh',
                 marginBottom : '10vh',
+                borderRadius: '0',
                 padding: isMobile ? '10px' : '10px' ,
                 background: '#f8f8f8 !important',
+
             }}
         >
             <Card 
@@ -24,6 +26,7 @@ const Signup = () => {
                     flexDirection: 'column',
                     width: isMobile ? 'auto' : '90vw',
                     height: 'auto',
+                    borderRadius: '0',
                     backgroundColor: "white",
                     padding: isMobile ? '20px' : '40px',
                     marginTop : '40px',
@@ -69,7 +72,7 @@ const Signup = () => {
                                 label="First Name *" 
                                 variant="outlined" 
                                 fullWidth 
-                                sx={{backgroundColor: '#f2f2f2', borderRadius: '1px', borderColor : 'black', border : '1px tan' }} 
+                                sx={{backgroundColor: '#f2f2f2', borderRadius: '1px', borderColor : 'black', border : '1px tan' , borderRadius: '0'}} 
                             />
                         </Grid>
                         <Grid item xs={12} sm={3}>
@@ -77,7 +80,7 @@ const Signup = () => {
                                 label="Last Name *" 
                                 variant='outlined'
                                 fullWidth 
-                                sx={{ backgroundColor: '#f2f2f2', borderRadius: '1px', borderColor : 'black', border : '1px tan' }} 
+                                sx={{ backgroundColor: '#f2f2f2', borderRadius: '1px', borderColor : 'black', border : '1px tan', borderRadius: '0' }} 
                             />
                         </Grid>
                         <Grid item xs={12} sm={3}>
@@ -85,7 +88,7 @@ const Signup = () => {
                                 label="Email *" 
                                 variant="outlined" 
                                 fullWidth 
-                                sx={{backgroundColor: '#f2f2f2', borderColor : 'black', border : '1px tan'}} 
+                                sx={{backgroundColor: '#f2f2f2', borderColor : 'black', border : '1px tan', borderRadius: '0'}} 
                             />
                         </Grid>
                         <Grid item xs={12} sm={3}>
@@ -97,6 +100,7 @@ const Signup = () => {
                                     color: 'white',
                                     fontWeight: 'bold',
                                     height: '7.2vh',
+                                    borderRadius: '0',
                                     '&:hover': {
                                         backgroundColor: 'white',
                                         color: '#3cb4e5',
