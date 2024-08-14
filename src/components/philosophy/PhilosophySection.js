@@ -81,28 +81,28 @@ const PhilosophySection = () => {
                             James Fitzgerald, Founder of OPEX
                         </Typography>
                         <Box sx={{ textAlign: 'center', mt: 4 }}>
-                        <Button
-                                        variant="contained"
-                                        sx={{
-                                            width: '220px',
-                                            height: '45px',
-                                            backgroundColor: '#f2f2f2',
-                                            borderColor: '#00B4D8',
-                                            color: 'black',
-                                            borderRadius: '0',
-                                            fontWeight: '700',
-                                            fontSize : '12px',
-                                            '&:hover': {
-                                                backgroundColor: 'black',
-                                                color: 'white',
-                                                fontWeight: '700',
-                                                border: '2px solid white',
-                                            },
-                                            alignSelf: 'flex-start'
-                                        }}
-                                    >
-                                       Sign Up Now
-                                    </Button>
+                            <Button
+                                variant="contained"
+                                sx={{
+                                    width: '220px',
+                                    height: '45px',
+                                    backgroundColor: '#f2f2f2',
+                                    borderColor: '#00B4D8',
+                                    color: 'black',
+                                    borderRadius: '0',
+                                    fontWeight: '700',
+                                    fontSize: '12px',
+                                    '&:hover': {
+                                        backgroundColor: 'black',
+                                        color: 'white',
+                                        fontWeight: '700',
+                                        border: '2px solid white',
+                                    },
+                                    alignSelf: 'flex-start'
+                                }}
+                            >
+                                Sign Up Now
+                            </Button>
                         </Box>
                     </Container>
                 </Box>

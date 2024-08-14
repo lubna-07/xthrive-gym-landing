@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
+import '../../css/landing/process.css'; 
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Carousel from 'react-material-ui-carousel';
 import { Paper, Grid, Typography, Button, Box, useMediaQuery, useTheme } from '@mui/material';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../css/process.css'; 
 
 const Process = () => {
     const [activeIndex, setActiveIndex] = useState(0);
@@ -25,11 +25,7 @@ const Process = () => {
         {
             clientImage: "https://flexxsirv.sirv.com/b6b3b9e876cd41273b1c1527c96892c5a2d3dfaa2f/opex-gyms-step4.jpg",
             clientName: "Andrew hunter"
-        },
-        {
-            clientImage: "https://flexxsirv.sirv.com/b6b3b9e876cd41273b1c1527c96892c5a2d3dfaa2f/opex-gyms-step5.jpg",
-            clientName: "phil jones"
-        },
+        }
     ];
 
     const steps = [
@@ -50,13 +46,8 @@ const Process = () => {
         },
         {
             header: "Step 4",
-            name: "Lifestyle",
+            name: "Fit Lifestyle",
             description: "The gym is only 1 hour of your day. What happens in the other 23 hours? Optimizing your nutrition, lifestyle, and recovery helps us maximize the results you get from your time in the gym."
-        },
-        {
-            header: "Step 5",
-            name: "Results",
-            description: "Our coaches don’t just talk about results, they deliver them. We help define what fitness means to you, and evolve your goals and training as you grow. Meeting one-on-one to align, review progress, and game plan next steps will become a regular part of your OPEX experience."
         }
     ];
 
@@ -69,8 +60,8 @@ const Process = () => {
             <div class="container mt100 mb60">
                 <div class="row mb0">
                     <div class="col-sm-12 text-center title-block">
-                        <h2 class="uppercase color-brand-secondary">Training for lifelong results</h2>
-                        <p class="lead mb0">What training at OPEX looks like for you, in 5 easy steps</p>
+                        <h2 class="uppercase color-brand-secondary">Training for Lasting Results</h2>
+                        <p class="lead mb0">Your Training Experience at xthrive.fit</p>
                     </div>
                 </div>
             </div>
@@ -86,11 +77,11 @@ const Process = () => {
             >
                 <Grid container spacing={0} justifyContent="center" sx={{ marginBottom: '16px' }}>
                     {steps.map((step, index) => (
-                        <Grid item key={index} xs={12} sm={6} md={2.4}>
+                        <Grid item key={index} xs={12} sm={6} md={3}>
                             <Paper
                                 sx={{
                                     padding: '10px',
-                                    backgroundColor: index === 0 ? '#ccc' : index === 1 ? '#999999' : index === 2 ? '#666666' : index === 3 ? '#333333' : '#3cb4e5',
+                                    backgroundColor: index === 0 ? '#ccc' : index === 1 ? '#999999' : index === 2 ? '#666666' : index === 3 ? '#3cb4e5' :'#333333' ,
                                     color: 'white',
                                     textAlign: 'center',
                                     height: '100px',
@@ -99,7 +90,7 @@ const Process = () => {
                                     justifyContent: 'center',
                                 }}
                             >
-                                <Typography variant="h6">{`${index + 1}. ${step.name}`}</Typography>
+                                <Typography variant="h6">{step.name}</Typography>
                             </Paper>
                         </Grid>
                     ))}

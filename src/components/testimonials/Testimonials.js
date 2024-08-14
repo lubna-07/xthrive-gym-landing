@@ -2,8 +2,9 @@ import React from 'react';
 import { Box, Button, useMediaQuery, useTheme } from '@mui/material';
 import { Container, Grid, Typography } from '@mui/material';
 import Testimonial from './Testimonial';
-import Signup from '../Signup';
+import Signup from '../common/Signup';
 import '../../css/testimonials/testimonial.css';
+import Header from './Header';
 
 
 const Testimonials = () => {
@@ -44,6 +45,7 @@ const Testimonials = () => {
 
     return (
         <>
+        <Header/>
             <Box
                 sx={{
                     width: '100%',

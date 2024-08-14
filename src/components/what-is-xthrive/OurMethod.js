@@ -3,12 +3,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../css/about/our-method.css';
 import { Button } from '@mui/material'
 import { Link } from 'react-router-dom';
-import Image from '../Image';
+import Image from '../common/Image';
 
 
 const OurMethod = () => {
     return (
-        <section className="pt64 pb112">
+        <section className="">
             <div className="container">
                 <div className="row v-align-children pt32">
                     <div className="col-md-5 col-sm-6 mb-xs-40 content-block p20">

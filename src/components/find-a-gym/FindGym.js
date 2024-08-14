@@ -8,16 +8,19 @@ import {
   Pin,
   InfoWindow,
 } from "@vis.gl/react-google-maps";
+import LocationList from "./LocationList";
+import MenuBar from "./MenuBar";
 
 export default function FindGym() {
-  const position = { lat: 53.54, lng: 10 };
+  const position = { lat: 12.940, lng: 77.704 };
   const [open, setOpen] = useState(false);
 
   return (
     <APIProvider apiKey="AIzaSyBijMMKhdJKoyHxhk5oNXtXFnWITdpJOkI">
+      <MenuBar/>
       <div style={{ height: "100vh", width: "100%" }}>
         <Map zoom={9} center={position} mapId="80889b23048f4247">
-          <AdvancedMarker  onClick={() => setOpen(true)}>
+          <AdvancedMarker position={position} onClick={() => setOpen(true)}>
             <Pin
               background={"grey"}
               borderColor={"green"}
@@ -26,12 +29,15 @@ export default function FindGym() {
           </AdvancedMarker>
 
           {open && (
-            <InfoWindow  onCloseClick={() => setOpen(false)}>
-              <p>I'm in Hamburg</p>
+            <InfoWindow position={position} onCloseClick={() => setOpen(false)}>
+              <p>I'm in Xthrive</p>
             </InfoWindow>
           )}
         </Map>
       </div>
+      <LocationList/>
     </APIProvider>
+    
+
   );
 }

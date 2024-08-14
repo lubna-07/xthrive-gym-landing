@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../css/about/our-method.css';
 import { Button } from '@mui/material'
 import { Link } from 'react-router-dom';
-import Image from '../Image';
+import Image from '../common/Image';
 
 
 const OurCoaches = () => {

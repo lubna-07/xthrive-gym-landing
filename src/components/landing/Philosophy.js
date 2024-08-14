@@ -1,7 +1,7 @@
 import React from 'react';
-import { Container, Grid, Box, Typography, Button , useMediaQuery, useTheme} from '@mui/material';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../css/philosophy.css'; 
+import '../../css/landing/philosophy.css'; 
+import { Container, Grid, Box, Typography, Button , useMediaQuery, useTheme} from '@mui/material';
 
 const Philosophy = () => {
     const theme = useTheme();
